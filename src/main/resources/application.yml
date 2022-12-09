@@ -1,0 +1,17 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://siezn.kro.kr:3306/deify
+    username: seq0614
+    password: initial5607@
+
+  jpa:
+    open-in-view: true
+    hibernate:
+      ddl-auto: update
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
+      use-new-id-generator-mappings: false
+    show-sql: false
+    properties:
+      hibernate.format_sql: true
